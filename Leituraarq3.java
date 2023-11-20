@@ -54,6 +54,7 @@ public class Leituraarq3 {
 			System.out.println("Descrição: " + produto.getDescricao());
 			System.out.println("Preço: " + produto.getPreco());
 			System.out.println("Quantidade: " + produto.getQtd());
+			System.out.println("Categoria: " + produto.getCategoria());
 			System.out.println();
 		}
 	}

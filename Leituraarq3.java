@@ -38,7 +38,7 @@ public class Leituraarq3 {
 				qtd = Integer.parseInt(linha.substring(43, 45));
 				categoria = Integer.parseInt(linha.substring(46, 47));
 				listaDeProdutos.add(new Regpro(codigo, nome, valor, qtd, categoria));
-				System.out.println(codigo + " - " + nome + " - " + valor);
+				System.out.println(codigo + " - " + nome + " - " + valor + " - " + qtd + " - " + categoria);
 
 				total = total + (valor * qtd);
 			}
